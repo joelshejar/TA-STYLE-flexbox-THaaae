@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    margin: 0;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 62px;
+}
+.header{
+    background-color: rgb(87, 177, 204);
+    padding: 32px 0 ;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.flex p{
+    margin-left: 20px;
+}
+.nav a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    margin-left: 10px;
+    font-size: 18px;
+}
+.footer{
+    height: 30px;
+    margin: 25px 0;
+    
+    
+}
+.foot a{
+    padding-left: 20px;
+}
+.article{
+    width: 60%;
+    background-color: rgb(190, 215, 223);
+    height: 600px;
+    margin-top: 80px;
+    border-radius: 8px;
+}
+.img{
+    width: 90%;
+    margin: 25px 34px;
+}
+
+.not{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.not a{
+    text-decoration: none;
+    color: rgb(11, 11, 82);
+    padding: 10px 0;
+    padding-right: 70px;
+    padding-left: 20px;
+}
+.art{
+    
+    border: 2px solid orange;
+}
+.nott{
+    flex-direction: column;
+    height: 600px;
+    width: 30%;
+    background-color: rgb(140, 196, 212);
+    margin-top: 80px;
+    border-radius: 8px;
+}
+.logout{
+    text-decoration: none;
+    color: rgb(11, 11, 82);
+    padding: 10px 0;
+    padding-right: 70px;
+    padding-left: 20px;
+    background-color: white;
+}
+.all{
+    
+}
+.log{
+    margin-bottom: 30px;
+}
+.heading{
+    font-size: 30px;
+    margin-left: 34px;
+    margin-bottom: 25px;
+}
+.paragraph{
+    margin-left: 44px;
+    margin-bottom: 25px;
+    line-height: 24px;
+    padding-left: 19px;
+}
+.more{
+    margin-left: 34px;
+    margin-bottom: 25px;
+    background-color: green;
+    width: 120px;
+    height: 40px;
+    justify-content: center;
+
+}
+.more a{
+    color: white;
+    text-decoration: none;
+    margin: 10px 0;
+}
+.more{
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
